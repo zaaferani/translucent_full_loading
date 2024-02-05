@@ -3,7 +3,7 @@ import time
 from PyQt6.QtCore import QThread, pyqtSignal
 from PyQt6.QtWidgets import QWidget
 
-from loadingTranslucentScreen import LoadingTranslucentScreen
+from translucent_full_loading.loadingTranslucentScreen import LoadingTranslucentScreen
 
 
 class LoadingThread(QThread):

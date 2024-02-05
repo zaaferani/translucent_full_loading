@@ -2,8 +2,8 @@ import time
 from PyQt6.QtWidgets import QPushButton, QTextEdit, QVBoxLayout, QWidget, QApplication
 import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
-from loadingThread import LoadingThread
-from loadingTranslucentScreen import LoadingTranslucentScreen
+from translucent_full_loading.loadingThread import LoadingThread
+from translucent_full_loading.loadingTranslucentScreen import LoadingTranslucentScreen
 
 
 # for second result

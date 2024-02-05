@@ -25,7 +25,6 @@ class LoadingTranslucentScreen(QWidget):
 
         caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(1)).filename)
         loading_screen_ico_filename = os.path.join(caller_path, 'ico/loading.gif')
-        print(loading_screen_ico_filename)
 
         self.__loading_mv = QMovie(loading_screen_ico_filename)
         self.__loading_mv.setScaledSize(QSize(45, 45))
